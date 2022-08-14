@@ -15,3 +15,6 @@ def about():
 def thoughts():
     return render_template('thoughts.html')
 
+@app.route('/projects')
+def projects():
+    return render_template('projects.html')
