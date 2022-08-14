@@ -15,6 +15,3 @@ def about():
 def thoughts():
     return render_template('thoughts.html')
 
-
-if __name__ == '__main__':
-    app.run()
