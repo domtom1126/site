@@ -7,6 +7,9 @@ app = Flask(__name__)
 def hello_world():
     return render_template('home.html')
 
+# Route for About page
+
+
 @app.route('/about')
 def about():
     return render_template('about.html')
@@ -18,3 +21,5 @@ def thoughts():
 @app.route('/projects')
 def projects():
     return render_template('projects.html')
+
+app.run()
